@@ -1,0 +1,21 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(82)
+    basic.showString("+")
+    basic.showNumber(94)
+    basic.showString("=")
+    basic.showNumber(131)
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showNumber(8)
+    basic.showString("x")
+    basic.showNumber(8)
+    basic.showString("=")
+    basic.showNumber(64)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showNumber(100)
+    basic.showString("-")
+    basic.showNumber(79)
+    basic.showString("=")
+    basic.showNumber(21)
+})
